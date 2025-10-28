@@ -1,16 +1,79 @@
-# React + Vite
+# 🛍️ Preentrega React - eCommerce con Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado como parte de la preentrega del curso de **React js de Talento Tech**, utilizando **React + Vite**. Se trata de un eCommerce funcional con listado de productos, carrito de compras, rutas protegidas y navegación dinámica.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+- React
+- Vite
+- React Router DOM
+- Context API
+- JavaScript (ES6+)
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Funcionalidades implementadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Listado de productos desde API externa (`https://fakestoreapi.com`)
+- ✅ Detalle de producto con ruta dinámica (`/producto/:id`)
+- ✅ Carrito de compras con estado global (Context API)
+- ✅ Navbar con navegación y contador de productos
+- ✅ Simulación de login/logout para rutas protegidas
+- ✅ Rutas protegidas con redirección
+- ✅ Estilos base y estructura visual clara
+
+---
+
+## 📁 Estructura del proyecto
+preentrega_react/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── ProductList.jsx
+│   │   ├── Cart.jsx
+│   ├── context/
+│   │   ├── CartContext.jsx
+│   │   ├── AuthContext.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── ProtectedRoute.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── README.md
+├── package.json
+├── package-lock.json
+├── vite.config.js
+
+
+## 🌐 Demo en línea
+
+Podés ver el proyecto funcionando en Vercel:  
+
+
+https://preentrega-react-eight.vercel.app/
+
+
+---
+
+
+## 👩‍💻 Autoría
+
+Proyecto desarrollado por **Mariela**, emprendedora y estudiante de Talento Tech.  
+
+## 📌 Requerimientos de la preentrega
+
+- [x] Uso de React con Vite
+- [x] Implementación de Context API
+- [x] Rutas protegidas con React Router
+- [x] Simulación de autenticación
+- [x] Consumo de API externa
+- [x] Navegación dinámica y estado global
+- [x] Subida y gestión en GitHub
